@@ -48,7 +48,7 @@ img.note2{
     margin-right: 140px;
 }
 
-body{
+body.mainPage{
     background-image: url("/Images/galway.jpg");
 }
 
@@ -98,3 +98,28 @@ h2{
 
 /*#endregion*/
 
+/*#region history*/
+
+p.historyText{
+   background-color: rgb(57, 54, 54);
+   color: white;
+   text-align: left;
+   width: 60em;
+   height: 40;
+   margin-left: .5em;
+   font-weight: bold;
+}
+
+img.image1{
+    float: right;
+    padding-right: 0em;
+    width: 15em;
+    height: 10em;
+    margin-right: .5em;
+    margin-top: .5em;
+}
+
+body.history{
+    background-image: url("/Images/historyGalway.jpg");
+}
+/*#endregion*/
