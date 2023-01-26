@@ -83,7 +83,7 @@ h2{
 .indexBar a {
     text-decoration: none;
     margin: 1em;
-    color: #d58814;
+    color: #000000;
     font-weight: bold;
     display: block;
     top: 0.75em;
@@ -93,7 +93,30 @@ h2{
 }
 
 .indexBar a:hover {
-    background-color: #C4E8B1;
+    background-color: #c8be85;
+    transition: .5s;
+    font-size: large;
+}
+
+div.mailingList{
+    display: flexbox;
+    text-shadow: #000000;
+    text-align: center;
+    background-color: rgb(213, 160, 14);
+    width: 24em;
+    height: 4em;
+    margin-left: 1em;
+    margin-top: 1em;
+    border: solid black;
+}
+
+input.submitButton{
+    background-color: rgb(160, 108, 108);
+    width: 15;
+    height: 2em;
+    margin-left: 26em;
+    margin-top: .5em;
+    text-align: center;
 }
 
 /*#endregion*/
@@ -123,3 +146,38 @@ body.history{
     background-image: url("/Images/historyGalway.jpg");
 }
 /*#endregion*/
+
+/*#region placesToVisit*/
+body{
+    background-color: rgb(185, 159, 125);
+}
+/*#endregion*/
+
+/*#region contact*/
+div.contactInfo{
+    background-color: #ca634f;
+    width: 30em;
+    text-align: center;
+    justify-content: center;
+    border: solid black;
+    margin-left: 40em;
+    margin-top: 5em;
+}
+
+input.submitButtonContact{
+    background-color: #c88208;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+h2.contactHeader{
+    width: 10em;
+    text-align: center;
+    margin-left: 5em;
+}
+
+input.message{
+    height: 1em;
+    width: 20em;
+}
+/*endregion*/
