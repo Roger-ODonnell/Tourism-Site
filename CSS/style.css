@@ -126,11 +126,13 @@ input.submitButton{
 p.historyText{
    background-color: rgb(57, 54, 54);
    color: white;
-   text-align: left;
+   text-align: center;
    width: 60em;
    height: 40;
    margin-left: .5em;
    font-weight: bold;
+   border: solid black;
+   border-width: .6em;
 }
 
 img.image1{
@@ -160,8 +162,8 @@ div.contactInfo{
     text-align: center;
     justify-content: center;
     border: solid black;
-    margin-left: 40em;
-    margin-top: 5em;
+    margin-left: 30em;
+    margin-top: 2em;
 }
 
 input.submitButtonContact{
@@ -180,4 +182,4 @@ input.message{
     height: 1em;
     width: 20em;
 }
-/*endregion*/
+/*#endregion*/
