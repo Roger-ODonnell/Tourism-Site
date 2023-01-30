@@ -153,6 +153,23 @@ body.history{
 body{
     background-color: rgb(185, 159, 125);
 }
+
+div.map{
+  float: right;
+  margin-right: 2em;
+  border: solid black;
+}
+
+div.mailingListAttractions{
+    text-shadow: #000000;
+    text-align: center;
+    background-color: rgb(213, 160, 14);
+    width: 24em;
+    height: 4em;
+    border: solid black;
+    margin-left: 90em;
+    margin-top: 30em;
+}
 /*#endregion*/
 
 /*#region contact*/
