@@ -8,36 +8,37 @@
 </head>
 
 <body>
-    <h1 class="pageHeader">Contact Galway Tourism</h1>
-    <ul class="indexBar">
-        <li><a href="../index.html">Homepage</a></li>
-        <li><a href="history.html">History Of Galway</a></li>
-        <li><a href="placesToVisit.html">Places To Visit</a></li>
-        <li><a href="bestAccomodation.html">Accomodation</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
+    <div class="page-container">
+        <h1 class="pageHeader">Contact Galway Tourism</h1>
+        <ul class="indexBar">
+            <li><a href="../index.html">Homepage</a></li>
+            <li><a href="history.html">History Of Galway</a></li>
+            <li><a href="placesToVisit.html">Places To Visit</a></li>
+            <li><a href="bestAccomodation.html">Accomodation</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
 
-    <div class="contactInfo">
-        <h2 class="contactHeader">Contact us!</h2>
-        <p>
-            Enter Email To Contact:
-            <input type="text" name="Email Address" placeholder="Enter Email Address">
-        </p>
-        <p>
-            Enter Name Of Contact:
-            <input type="text" name="Name" placeholder="Enter Name">
-        </p>
-        <p>
-            Enter Phone Number::
-            <input type="text" name="Name" placeholder="Enter number">
-        </p>
-        <p>
-            <!--<span>Enter Message:<span>
-            <input class="message" type="text" name="Query">-->
-            <label for="Message">Add Your Message</label>
-            <textarea id="message" name="message"></textarea>
-        </p>
-        <input type="button" class="submitButtonContact" name="Submit" value="Submit">
+        <div class="contactInfo">
+            <h2 class="contactHeader">Contact us!</h2>
+            <p>
+                Enter Email To Contact:
+                <input required type="text" name="Email Address" placeholder="Enter Email Address">
+            </p>
+            <p>
+                Enter Name Of Contact:
+                <input required type="text" name="Name" placeholder="Enter Name">
+            </p>
+            <p>
+                Enter Phone Number::
+                <input required type="text" name="Name" placeholder="Enter number">
+            </p>
+            <p>
+                <label for="Message">Add Your Message</label>
+                <textarea required id="message" name="message"></textarea>
+            </p>
+            <input type="button" class="submitButtonContact" name="Submit" value="Submit">
+        </div>
+        <!--Add email in addtion to contact form-->
     </div>
 </body>
 
