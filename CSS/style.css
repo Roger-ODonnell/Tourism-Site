@@ -112,7 +112,6 @@ p.historyText{
    color: white;
    text-align: center;
    width: 60em;
-   height: 40;
    margin-left: .5em;
    font-weight: bold;
    border: solid black;
@@ -121,11 +120,77 @@ p.historyText{
 
 img.image1{
     float: right;
-    padding-right: 0em;
     width: 15em;
-    height: 10em;
+    height: 9em;
     margin-right: .5em;
-    margin-top: .5em;
+    margin-top: .1em;
+    border: solid white;
+}
+
+img.image2{
+    float: right;
+    width: 10em;
+    height: 7em;
+    margin-right: .5em;
+    margin-top: 2em;
+    border: solid white;
+}
+
+.fact{
+    background-color: rgb(57, 54, 54);
+    border: solid white;
+    color:#c8be85;
+    text-align: center;
+    width: 20%;
+    height: 3em;
+    margin-right: 10em;
+    margin-top: -20em;
+    float: right;
+}
+
+.fact2{
+    background-color: rgb(57, 54, 54);
+    border: solid white;
+    color:#c8be85;
+    text-align: center;
+    width: 20%;
+    height: 4em;
+    margin-right: 10em;
+    margin-top: -16em;
+    float: right;
+}
+
+.fact3{
+    background-color: rgb(57, 54, 54);
+    border: solid white;
+    color:#c8be85;
+    text-align: center;
+    width: 20%;
+    height: 4em;
+    margin-right: 10em;
+    margin-top: -11em;
+    float: right;
+}
+
+.fact4{
+    background-color: rgb(57, 54, 54);
+    border: solid white;
+    color:#c8be85;
+    text-align: center;
+    width: 20%;
+    height: 5em;
+    margin-right: 10em;
+    margin-top: -6em;
+    float: right;
+}
+
+.funFactHeader{
+    border: solid white;
+    text-align: center;
+    width: 20%;
+    float: right;
+    margin-top: -15em;
+    margin-right: 7em;
 }
 
 body.history{
