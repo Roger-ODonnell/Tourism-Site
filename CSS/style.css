@@ -2,18 +2,17 @@
 
 
 /*#region homepage*/
-h1.pageHeader{
+h1.pageHeader {
     text-align: center;
     border: 4px solid red;
     background-color: #faebd7;
 }
 
-.page-container{
+.page-container {
     font-family: 'Itim', sans-serif;
 }
 
-div.promoVid
-{
+div.promoVid {
     text-align: center;
     border: 5px solid red;
     background-color: antiquewhite;
@@ -21,8 +20,7 @@ div.promoVid
     margin-right: 300px;
 }
 
-div.galleryMain
-{
+div.galleryMain {
     text-align: center;
     border: 5px solid red;
     background-color: antiquewhite;
@@ -31,7 +29,7 @@ div.galleryMain
     margin-right: 150px;
 }
 
-h2.vidHeader{
+h2.vidHeader {
     background-color: rgb(22, 95, 138);
     color: white;
     margin-right: 10em;
@@ -39,27 +37,27 @@ h2.vidHeader{
     text-align: center;
 }
 
-img.note{
+img.note {
     float: left;
-    width:150px;
+    width: 150px;
     height: 150px;
     margin-left: 180px;
     margin-top: 50px;
 }
 
-img.note2{
+img.note2 {
     float: right;
-    width:150px;
+    width: 150px;
     height: 150px;
     margin-top: 50px;
     margin-right: 140px;
 }
 
-body.mainPage{
+body.mainPage {
     background-image: url("/Images/galway.jpg");
 }
 
-h1{
+h1 {
     border-radius: 0.5em;
     background-color: rgb(22, 95, 138);
     margin-left: 200px;
@@ -67,7 +65,7 @@ h1{
     color: black;
 }
 
-h2{
+h2 {
     border-radius: 0.5em;
     background-color: rgb(22, 95, 138);
     margin-left: 200px;
@@ -77,7 +75,7 @@ h2{
 
 .indexBar {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     list-style-type: none;
     margin: 1em;
     background-color: #edf10d;
@@ -107,18 +105,18 @@ h2{
 
 /*#region history*/
 
-p.historyText{
-   background-color: rgb(57, 54, 54);
-   color: white;
-   text-align: center;
-   width: 60em;
-   margin-left: .5em;
-   font-weight: bold;
-   border: solid black;
-   border-width: .6em;
+p.historyText {
+    background-color: rgb(57, 54, 54);
+    color: white;
+    text-align: center;
+    width: 60em;
+    margin-left: .5em;
+    font-weight: bold;
+    border: solid black;
+    border-width: .6em;
 }
 
-img.image1{
+img.image1 {
     float: right;
     width: 15em;
     height: 9em;
@@ -127,7 +125,7 @@ img.image1{
     border: solid white;
 }
 
-img.image2{
+img.image2 {
     float: right;
     width: 10em;
     height: 7em;
@@ -136,81 +134,87 @@ img.image2{
     border: solid white;
 }
 
-.fact{
+.fact {
     background-color: rgb(57, 54, 54);
     border: solid white;
-    color:#c8be85;
+    color: #c8be85;
     text-align: center;
     width: 20%;
     height: 3em;
     margin-right: 10em;
-    margin-top: -20em;
+    margin-top: -23em;
     float: right;
 }
 
-.fact2{
+.fact2 {
     background-color: rgb(57, 54, 54);
     border: solid white;
-    color:#c8be85;
-    text-align: center;
-    width: 20%;
-    height: 4em;
-    margin-right: 10em;
-    margin-top: -16em;
-    float: right;
-}
-
-.fact3{
-    background-color: rgb(57, 54, 54);
-    border: solid white;
-    color:#c8be85;
-    text-align: center;
-    width: 20%;
-    height: 4em;
-    margin-right: 10em;
-    margin-top: -11em;
-    float: right;
-}
-
-.fact4{
-    background-color: rgb(57, 54, 54);
-    border: solid white;
-    color:#c8be85;
+    color: #c8be85;
     text-align: center;
     width: 20%;
     height: 5em;
     margin-right: 10em;
-    margin-top: -6em;
+    margin-top: -19em;
     float: right;
 }
 
-.funFactHeader{
+.fact3 {
+    background-color: rgb(57, 54, 54);
+    border: solid white;
+    color: #c8be85;
+    text-align: center;
+    width: 20%;
+    height: 5em;
+    margin-right: 10em;
+    margin-top: -13em;
+    float: right;
+}
+
+.fact4 {
+    background-color: rgb(57, 54, 54);
+    border: solid white;
+    color: #c8be85;
+    text-align: center;
+    width: 20%;
+    height: 6em;
+    margin-right: 10em;
+    margin-top: -7em;
+    float: right;
+}
+
+.funFactHeader {
     border: solid white;
     text-align: center;
     width: 20%;
     float: right;
-    margin-top: -15em;
+    margin-top: -17em;
     margin-right: 7em;
 }
 
-body.history{
+body.history {
     background-image: url("/Images/historyGalway.jpg");
+    background-repeat: no-repeat;
+    background-size: 96em 45em;
 }
 
 /*#endregion*/
 
 /*#region placesToVisit*/
-body{
-    background-color: rgb(185, 159, 125);
+.attractions-body {
+    background-image: url(/images/galwaybacking.jpg);
+    background-repeat: no-repeat;
+    background-size: 100em 70em;
+    font-family: 'Itim', sans-serif;
+    text-align: center;
 }
 
-div.map{
-  float: right;
-  margin-right: 2em;
-  border: solid black;
+div.map {
+    float: right;
+    margin-right: 2em;
+    border: solid black;
 }
 
-div.mailingListAttractions{
+div.mailingListAttractions {
     text-shadow: #000000;
     text-align: center;
     background-color: rgb(213, 160, 14);
@@ -220,10 +224,120 @@ div.mailingListAttractions{
     margin-left: 90em;
     margin-top: 30em;
 }
+
+/*#region row1*/
+.attractionHeader {
+    text-align: center;
+    width: 20%;
+    border: solid white;
+    color: white;
+}
+
+.attractionParagraph {
+    background-color: antiquewhite;
+    border: solid black;
+    width: 20%;
+    margin-top: -1em;
+    margin-left: 12em;
+}
+
+.attractionImage {
+    float: right;
+    margin-right: 51em;
+    margin-top: -9.5em;
+    border: solid black;
+}
+
+/*#endregion*/
+
+/*#region row2*/
+
+.row2
+{
+    margin-top: 3em;
+   margin-right: 10em;
+}
+
+
+.attractionHeader2 {
+    float: right;
+    text-align: center;
+    width: 20%;
+    border: solid white;
+    color: white;
+    margin-top: -17.5em;
+}
+
+.attractionParagraph2 {
+    float: right;
+    margin-top: -32em;
+    margin-right: 12em;
+    background-color: antiquewhite;
+    border: solid black;
+    width: 20%;
+}
+
+.attractionImage2 {
+    float: right;
+    border: solid black;
+    margin-top: -33em;
+}
+
+.attractionHeader3 {
+    float: right;
+    text-align: center;
+    width: 20%;
+    border: solid white;
+    color: white;
+    margin-top: -11em;
+}
+
+.attractionParagraph3 {
+    float: right;
+    margin-top: -18.5em;
+    margin-right: 12em;
+    background-color: antiquewhite;
+    border: solid black;
+    width: 20%;
+}
+
+.attractionImage3 {
+    float: right;
+    border: solid black;
+    margin-top: -22em;
+}
+
+.attractionHeader4 {
+    float: right;
+    text-align: center;
+    width: 20%;
+    border: solid white;
+    color: white;
+    margin-top: -5.5em;
+}
+
+.attractionParagraph4 {
+    float: right;
+    margin-top: -8em;
+    margin-right: 12em;
+    background-color: antiquewhite;
+    border: solid black;
+    width: 20%;
+}
+
+.attractionImage4 {
+    float: right;
+    border: solid black;
+    margin-top: -10em;
+    margin-right: 1em;
+}
+
+
+/*#endregion*/
 /*#endregion*/
 
 /*#region contact*/
-div.contactInfo{
+div.contactInfo {
     background-color: #ca634f;
     width: 30em;
     text-align: center;
@@ -233,36 +347,38 @@ div.contactInfo{
     margin-top: 2em;
 }
 
-input.submitButtonContact{
+input.submitButtonContact {
     background-color: #c88208;
     margin-top: 2em;
     margin-bottom: 1em;
 }
 
-h2.contactHeader{
+h2.contactHeader {
     width: 10em;
     text-align: center;
     margin-left: 5em;
 }
 
-input.message{
+input.message {
     height: 1em;
     width: 20em;
 }
+
 /*#endregion*/
 
 /*#region footer*/
-footer{
+footer {
     background-color: antiquewhite;
-    width: 110em;
+    width: 90em;
     height: 5em;
     border: solid black;
-    margin-left: 5em;
+    margin-left: 3em;
+    margin-top: 3em;
     text-align: center;
     font-family: 'Itim', sans-serif;
 }
 
-div.mailingList{
+div.mailingList {
     display: flexbox;
     text-shadow: #000000;
     text-align: center;
@@ -274,7 +390,7 @@ div.mailingList{
     border: solid black;
 }
 
-input.submitButton{
+input.submitButton {
     background-color: rgb(160, 108, 108);
     width: 10;
     height: 2em;
@@ -283,7 +399,7 @@ input.submitButton{
     text-align: center;
 }
 
-.footerText{
+.footerText {
     background-color: aliceblue;
     border: solid black;
     width: 18em;
@@ -291,4 +407,5 @@ input.submitButton{
     margin-left: 50em;
     text-align: center;
 }
+
 /*#endregion*/
