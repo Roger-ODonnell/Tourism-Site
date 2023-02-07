@@ -129,13 +129,13 @@ h2.galleryHeader {
 /*#region history*/
 
 p.historyText {
-    background-color: rgb(57, 54, 54);
+    background-color: rgba(57, 54, 54, 0.761);
     color: white;
     text-align: center;
     width: 60em;
     margin-left: .5em;
     font-weight: bold;
-    border: solid black;
+    border: solid rgba(0, 0, 0, 0.548);
     border-width: .6em;
 }
 
@@ -168,7 +168,7 @@ img.image2 {
 }
 
 .fact {
-    background-color: rgb(57, 54, 54);
+    background-color: rgba(57, 54, 54, 0.795);
     border: solid white;
     color: #c8be85;
     text-align: center;
@@ -180,7 +180,7 @@ img.image2 {
 }
 
 .fact2 {
-    background-color: rgb(57, 54, 54);
+    background-color: rgba(57, 54, 54, 0.85);
     border: solid white;
     color: #c8be85;
     text-align: center;
@@ -192,7 +192,7 @@ img.image2 {
 }
 
 .fact3 {
-    background-color: rgb(57, 54, 54);
+    background-color: rgba(57, 54, 54, 0.774);
     border: solid white;
     color: #c8be85;
     text-align: center;
@@ -204,7 +204,7 @@ img.image2 {
 }
 
 .fact4 {
-    background-color: rgb(57, 54, 54);
+    background-color: rgba(57, 54, 54, 0.772);
     border: solid white;
     color: #c8be85;
     text-align: center;
@@ -267,7 +267,7 @@ div.mailingListAttractions {
 }
 
 .attractionParagraph {
-    background-color: antiquewhite;
+    background-color: rgba(250, 235, 215, 0.875);
     border: solid black;
     width: 20%;
     margin-top: -1em;
@@ -297,7 +297,7 @@ div.mailingListAttractions {
     text-align: center;
     width: 20%;
     border: solid white;
-    color: white;
+    color: rgb(255, 255, 255);
     margin-top: -17.5em;
 }
 
@@ -305,7 +305,7 @@ div.mailingListAttractions {
     float: right;
     margin-top: -32em;
     margin-right: 12em;
-    background-color: antiquewhite;
+    background-color: rgba(250, 235, 215, 0.91);
     border: solid black;
     width: 20%;
 }
