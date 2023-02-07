@@ -20,13 +20,32 @@ div.promoVid {
     margin-right: 300px;
 }
 
-div.galleryMain {
-    text-align: center;
-    border: 5px solid red;
+.gallery {
     background-color: antiquewhite;
-    border-radius: 0.5em;
-    margin-left: 150px;
-    margin-right: 150px;
+    border: solid red;
+    width: 90%;
+    margin-left: 5em;
+}
+
+.gallery__img1{
+   margin-left: 15em;
+   margin-top:  1em;
+}
+
+.gallery__img2{
+    margin-left: 50em;
+   margin-top:  -19em;
+}
+
+.gallery__img3{
+    margin-left: 50em;
+    margin-top: 1em;
+  
+}
+
+.gallery__img4{
+    margin-left: 15em;
+    margin-top: -18em;
 }
 
 h2.vidHeader {
@@ -41,7 +60,6 @@ img.note {
     float: left;
     width: 150px;
     height: 150px;
-    margin-left: 180px;
     margin-top: 50px;
 }
 
@@ -50,7 +68,6 @@ img.note2 {
     width: 150px;
     height: 150px;
     margin-top: 50px;
-    margin-right: 140px;
 }
 
 body.mainPage {
@@ -68,9 +85,10 @@ h1 {
 h2 {
     border-radius: 0.5em;
     background-color: rgb(22, 95, 138);
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 500px;
     color: white;
+    text-align: center;
+    width: 40%;
 }
 
 .indexBar {
@@ -334,6 +352,136 @@ div.mailingListAttractions {
 
 
 /*#endregion*/
+/*#endregion*/
+
+/*#PlacesToStay*/
+.bookLink{
+    background-color: #a0250d;
+    color: white;
+    font-style: none;
+    margin-left: 18em;
+    border: solid black;
+    border-radius: 1em;
+    text-decoration: none;
+    margin-top: -1em;
+}
+
+a:hover{
+    background-color: #fcdf00;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.stay1{
+    width: 30%;
+}
+
+.Stay1Header{
+    background-color: aquamarine;
+    text-align: center;
+    width: 40%;
+    margin-left: 8em;
+    margin-top: 3em;
+    border: solid black;
+}
+
+.Stay1P{
+    background-color: antiquewhite;
+    text-align: center;
+    margin-left: 22em;
+    margin-top: -13em;
+    border: solid black;
+    width: 50%;
+}
+
+.Stay1Review{
+    background-color: antiquewhite;
+    text-align: left;
+    border: solid black; 
+    margin-left: 22em;
+    margin-top: 1em;
+    width: 90%;
+    height: 100%;
+}
+
+.accomodationImage1{
+    border: solid rgb(84, 79, 79);
+    margin-left: 9em;
+}
+
+.stay2{
+    width: 30%;
+}
+
+.Stay2Header{
+    background-color: aquamarine;
+    text-align: center;
+    width: 40%;
+    margin-left: 8em;
+    margin-top: 3em;
+    border: solid black;
+}
+
+.Stay2P{
+    background-color: antiquewhite;
+    text-align: center;
+    margin-left: 24em;
+    margin-top: -13em;
+    border: solid black;
+    width: 50%;
+}
+
+.Stay2Review{
+    background-color: antiquewhite;
+    text-align: left;
+    border: solid black; 
+    margin-left: 24em;
+    margin-top: 1em;
+    width: 90%;
+    height: 100%;
+}
+
+.accomodationImage2{
+    border: solid rgb(84, 79, 79);
+    margin-left: 6em;
+}
+
+.stay3{
+    width: 30%;
+}
+
+.Stay3Header{
+    background-color: aquamarine;
+    text-align: center;
+    width: 40%;
+    margin-left: 8em;
+    margin-top: 3em;
+    border: solid black;
+}
+
+.Stay3P{
+    background-color: antiquewhite;
+    text-align: center;
+    margin-left: 24em;
+    margin-top: -13em;
+    border: solid black;
+    width: 50%;
+}
+
+.Stay3Review{
+    background-color: antiquewhite;
+    text-align: left;
+    border: solid black; 
+    margin-left: 24em;
+    margin-top: 1em;
+    width: 90%;
+    height: 100%;
+}
+
+.accomodationImage3{
+    border: solid rgb(84, 79, 79);
+    margin-left: 6em;
+}
 /*#endregion*/
 
 /*#region contact*/
